@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+<TextView
+    android:id="@+id/salutations_text_view"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="50dp"
+    android:textSize="20dp"
+    android:text="Mes salutations vont apparaître ici"
+    android:textColor="@color/black"/>
+
+<Button
+    android:layout_width="250dp"
+    android:layout_height="50dp"
+    android:text="Montrez mes Salutations"
+    android:layout_marginLeft="45dp"
+    android:layout_below="@+id/salutations_text_view"
+    android:layout_gravity="center_vertical"
+    android:background="@drawable/btn"
+    android:textColor="@color/white"
+    android:onClick="change" />
+
+</RelativeLayout>
